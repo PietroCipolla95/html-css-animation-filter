@@ -199,8 +199,24 @@
 
 /* #region Esercizio 11 */
 
+.ex-11-icon:hover {
+    animation-name: horotate;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
 
+@keyframes horotate {
+    0% {
+        transform: rotate(0);
+    }
 
+    90% {
+        transform: rotate(0.75turn)
+    }
 
+    100% {
+        transform: rotate(0);
+    }
+}
 
 /* #endregion Esercizio 11 */
