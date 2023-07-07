@@ -79,3 +79,16 @@
 }
 
 /* #endregion Esercizio 1 */
+
+/* #region Esercizio 2 */
+
+.ex-2-square{
+    transition:  2s;
+}
+
+.ex-2-square:active{
+    width: 100%;
+}
+
+/* #endregion Esercizio 1 */
+
