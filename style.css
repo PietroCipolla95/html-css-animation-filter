@@ -92,3 +92,17 @@
 
 /* #endregion Esercizio 1 */
 
+/* #region Esercizio 3 */
+
+.ex-3-square {
+    transition: border-radius 0.5s;
+
+}
+
+.ex-3-square:hover{
+    border-radius: 50%;
+}
+
+/* #endregion Esercizio 3 */
+
+
