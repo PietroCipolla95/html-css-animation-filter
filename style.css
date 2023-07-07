@@ -141,5 +141,15 @@
 
 /* #endregion Esercizio 6 */
 
+/* #region Esercizio 7 */
 
+.ex-7-img {
+    transition: 1s;
+}
+
+.ex-7-img:hover {
+    filter: grayscale(70%) invert(100%); 
+}
+
+/* #endregion Esercizio 7 */
 
