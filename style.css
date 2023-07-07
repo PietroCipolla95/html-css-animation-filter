@@ -180,4 +180,27 @@
 
 /* #endregion Esercizio 9 */
 
+/* #region Esercizio 10 */
 
+.ex-10-icon {
+    animation-name: revrotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes revrotate {
+    0% {
+        transform: rotate(1turn);
+    }    
+}
+
+/* #endregion Esercizio 10 */
+
+/* #region Esercizio 11 */
+
+
+
+
+
+/* #endregion Esercizio 11 */
