@@ -133,3 +133,13 @@
 
 /* #endregion Esercizio 5 */
 
+/* #region Esercizio 6 */
+
+.ex-6-img:hover {
+    filter: grayscale(100%);    
+}
+
+/* #endregion Esercizio 6 */
+
+
+
