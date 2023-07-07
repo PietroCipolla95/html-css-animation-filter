@@ -67,3 +67,15 @@
     width: 60px;
     height: 20px;
 }
+
+/* #region Esercizio 1 */
+
+.ex-1-square{
+    transition: background-color 3s;
+}
+
+.ex-1-square:hover{
+    background-color: red;
+}
+
+/* #endregion Esercizio 1 */
