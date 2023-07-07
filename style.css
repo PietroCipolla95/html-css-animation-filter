@@ -153,3 +153,16 @@
 
 /* #endregion Esercizio 7 */
 
+/* #region Esercizio 8 */
+
+.ex-8-img {
+    transition: 1s;
+}
+
+.ex-8-img:hover {
+    filter: grayscale(70%) invert(100%); 
+    border-radius: 20%;
+}
+
+/* #endregion Esercizio 8 */
+
