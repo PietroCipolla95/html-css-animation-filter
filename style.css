@@ -266,9 +266,87 @@
     
 }
 
+/* #endregion Esercizio 12 */
 
+/* #region Esercizio 13 */
 
+.ex-13-button:hover .ex-13-top-white{
+    animation-name: spinwhitetop;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
 
+@keyframes spinwhitetop {
+    0% {
+        left: 20px;
+        top: -10px;
+    }
 
+    30%{
+        left: calc(100% - 30px);
+        top: -10px;
+    }
 
-/* #endregion Esercizio 11 */
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+
+    75% {
+        left: 0;
+        top: 100%;
+    }
+
+    90%{
+        left: -15px;
+        top: -10px;
+    }
+
+    100%{
+        left: 20px;
+        top: -10px;
+    }
+    
+}
+
+.ex-13-button:hover .ex-13-bottom-white{
+    animation: spinwhitebottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes spinwhitebottom {
+
+    0% {
+        right: 20px;
+        bottom: -10px;
+    }
+
+    30% {
+        right: calc(100% - 30px);
+        bottom: -10px;
+    }
+
+    45% {
+        right: calc(100% - 30px);
+        bottom: 100%;
+    }
+
+    75% {
+        right: 0;
+        bottom: 100%;
+    }
+
+    90% {
+        right: -15px;
+        bottom: -10px;
+    }
+
+    100% {
+        right: 20px;
+        bottom: -10px;
+    }
+    
+}
+
+/* #endregion Esercizio 13 */
