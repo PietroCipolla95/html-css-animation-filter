@@ -220,3 +220,55 @@
 }
 
 /* #endregion Esercizio 11 */
+
+/* #region Esercizio 12 */
+
+.ex-12-button:hover .ex-12-top-white{
+    animation-name: movewhitetop;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes movewhitetop {
+    0% {
+        left: 20px;
+    }
+
+    50%{
+        left: calc(100% - 60px);
+    }
+
+    100% {
+        left: 20px;
+    }
+    
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: movewhitebottom;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes movewhitebottom {
+
+    0% {
+        right: 20px;
+    }
+
+    50% {
+        right: calc(100% - 60px);
+    }
+
+    100% {
+        right: 20px;
+    }
+    
+}
+
+
+
+
+
+
+/* #endregion Esercizio 11 */
